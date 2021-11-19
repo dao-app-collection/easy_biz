@@ -1,0 +1,15 @@
+.text {
+    flex-grow: 1;
+}
+.qty {
+    flex-basis: 4rem;
+    border-left: 1px solid grey;
+    text-align: right;
+}
+.text, .qty {
+    margin: 0 -1px 0;
+    padding: 6px 8px;
+    &:hover {
+        background: lightcyan;
+    }
+}

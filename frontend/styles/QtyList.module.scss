@@ -1,0 +1,13 @@
+.qtyList {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .sumRow {
+        .sum {
+            min-width: 4rem;
+            float: right;
+            padding: 10px;
+            text-align: right;
+        }
+    }

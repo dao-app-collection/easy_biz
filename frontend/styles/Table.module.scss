@@ -1,0 +1,38 @@
+.table {
+   
+
+    .title {
+
+    }
+    table {
+        width: 100%;
+        border-spacing: 0;
+        border-collapse: collapse;
+    }
+    .head {
+        background: $lightBackground;
+    }
+    .row {
+        
+    }
+
+    .cell {
+        padding: 3px 8px;
+        border: 1px solid black;
+        flex-grow: 1;
+        &:hover {
+            background: lightcyan;
+        }
+
+        &.grow0 {
+            flex-grow: 0;
+        }
+        &.grow1 {
+            flex-grow: 1;
+        }
+        &.grow2 {
+            flex-grow: 2;
+        }
+    }
+
+}

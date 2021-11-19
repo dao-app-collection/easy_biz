@@ -1,0 +1,16 @@
+.labeledCard {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid gray;
+    .header {
+        padding: 6px 8px;
+        text-align: center;
+        color: black;
+        background: $lightBackground;
+        border-bottom: 1px solid gray;
+    }
+    .content {
+        
+    }
+}
